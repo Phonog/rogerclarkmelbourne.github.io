@@ -1,0 +1,73 @@
+{
+	"packages":
+	{
+		"name":"RogerClark",
+		"maintainer":"RogerClark",
+		"websiteURL":"http://www.rogerclark.net",
+		"email":"roger@gogerclark.net",
+		"help":{ "online":"www.rogerclark.net" },
+		"platforms": 
+			[
+				{
+					"name": nRF51822 Boards (32-bits ARM Cortex-M0)",
+					"architecture": "nRF51822",
+					"version": "0.0.1",
+					"category": "RogerClark",
+					"url": "https://rogerclarkmelbourne.github.io/nrf51822_arduino/nrf51822_core.zip",
+					"archiveFileName": "nrf51822_core.zip",
+					"checksum": "SHA-256:06C203E80B97A2290BD10C87FA6BBC58D42292D7EC81E2FB2CDC9BC2C7030B32",
+					"size": "(1069894",
+					"boards": 
+						[
+							{"name": "Generic nRF51822"},
+						],
+					"toolsDependencies": 
+						[
+							{
+								"packager": "arduino"
+								"name": "arm-none-eabi-gcc",
+								"version": "4.8.3-2014q1"
+							}
+						]
+				}
+			],
+		"tools":
+			[
+				{
+					"name": "arm-none-eabi-gcc",
+					"version": "4.8.3-2014q1",
+					"systems": 
+						[
+							{
+								"host": "i686-mingw32",
+								"archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+								"url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+								"checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+								"size": "84537449"
+							},
+							{
+								"host": "x86_64-apple-darwin",
+								"url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+								"archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+								"checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+								"size": "52518522"
+							},
+							{
+								"host": "x86_64-pc-linux-gnu",
+								"url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+								"archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+								"checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+								"size": "51395093"
+							},
+							{
+								"host": "i686-pc-linux-gnu",
+								"url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+								"archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+								"checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+								"size": "51029223"
+							}
+						]
+				}
+			]
+	}
+}
